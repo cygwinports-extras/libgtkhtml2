@@ -1,0 +1,144 @@
+libgtkhtml2
+-------------------------------------------
+An HTML display widget library for GTK2.
+
+Runtime requirements:
+  atk-runtime-1.9.1-1
+  gail-1.8.8-1
+  libxml2-2.6.22-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkgconfig-0.17.2-2
+  sed-4.1.4-1
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/libgtkhtml/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libgtkhtml2-2.6.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./libgtkhtml-2.6.3-X.sh all
+
+This will create:
+  /usr/src/libgtkhtml2-2.6.3-X-src.tar.bz2
+  /usr/src/libgtkhtml2-2.6.3-X.tar.bz2
+  /usr/src/libgtkhtml2-devel-2.6.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cyggtkhtml-2-0.dll
+  /usr/share/doc/Cygwin/libgtkhtml2-2.6.3.README
+  /usr/share/doc/libgtkhtml2-2.6.3/AUTHORS
+  /usr/share/doc/libgtkhtml2-2.6.3/ChangeLog
+  /usr/share/doc/libgtkhtml2-2.6.3/COPYING.LIB
+  /usr/share/doc/libgtkhtml2-2.6.3/INSTALL
+  /usr/share/doc/libgtkhtml2-2.6.3/NEWS
+  /usr/share/doc/libgtkhtml2-2.6.3/README
+  /usr/share/doc/libgtkhtml2-2.6.3/TODO
+
+Files included in the devel package:
+
+  /usr/include/gtkhtml-2.0/libgtkhtml/css/cssmatcher.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/css/cssparser.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/css/cssstylesheet.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/css/cssvalue.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/document/htmldocument.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/document/htmlparser.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-attr.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-characterdata.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-comment.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-core-utils.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-document.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-documenttype.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-element.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-namednodemap.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-node.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/core/dom-nodelist.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/dom-types.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/events/dom-event.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/events/dom-eventlistener.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/events/dom-eventtarget.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlanchorelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlcollection.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlformelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlinputelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlobjectelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmloptionelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmlselectelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/html/dom-htmltextareaelement.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/traversal/dom-documenttraversal.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/traversal/dom-nodefilter.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/traversal/dom-nodeiterator.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/traversal/dom-traversal-utils.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/views/dom-abstractview.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/dom/views/dom-documentview.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlcolor.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlfontspecification.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlgdkpainter.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlimage.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlimagefactory.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlpainter.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/graphics/htmlstylepainter.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/gtkhtml.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/gtkhtmlcontext.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/html/htmlboxembedded.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/html/htmlboxform.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/html/htmlembedded.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlbox.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxblock.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxlistitem.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxroot.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtable.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtablecaption.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtablecell.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtablerow.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtablerowgroup.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlboxtext.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmllinebox.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlrelayout.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/layout/htmlstyle.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/htmlatomlist.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/htmlglobalatomlist.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/htmlglobalatoms.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/htmlstream.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/htmlstreambuffer.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/util/rfc1738.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/view/htmlevent.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/view/htmlselection.h
+  /usr/include/gtkhtml-2.0/libgtkhtml/view/htmlview.h
+  /usr/lib/libgtkhtml-2.dll.a
+  /usr/lib/libgtkhtml-2.la
+  /usr/lib/pkgconfig/libgtkhtml-2.0.pc
+
+--------------------
+
+Port Notes:
+
+----- version 2.6.3-2 -----
+Rebuilt with updated toolchain.
+Created separate -devel package.
+
+----- version 2.6.3-1 -----
+Version bump.
+
+----- version 2.6.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/

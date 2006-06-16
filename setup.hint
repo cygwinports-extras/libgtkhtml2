@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin atk-runtime gail gtk2-x11-runtime libxml2
+sdesc: "GTK2 HTML display widget library (runtime)"
+ldesc: "An HTML display widget library for GTK2"
