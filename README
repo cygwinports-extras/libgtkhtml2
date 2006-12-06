@@ -3,22 +3,24 @@ libgtkhtml2
 An HTML display widget library for GTK2.
 
 Runtime requirements:
-  atk-runtime-1.9.1-1
-  gail-1.8.8-1
-  libxml2-2.6.22-1
+  cygwin-1.5.22-1
+  atk-1.12.3-1
+  libgailutil18-1.9.3-1
+  libxml2-2.6.26-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-1
   automake1.9-1.9.6-1
-  binutils-20050610-1
+  binutils-20060817-1
+  cygport-0.2.7-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  libtool1.5-1.5.20-2
-  make-3.80-1
-  pkgconfig-0.17.2-2
-  sed-4.1.4-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical download:
   ftp://ftp.gnome.org/pub/GNOME/sources/libgtkhtml/
@@ -30,7 +32,7 @@ Build instructions:
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./libgtkhtml-2.6.3-X.sh all
+  cygport ./libgtkhtml2-2.6.3-X.cygport all
 
 This will create:
   /usr/src/libgtkhtml2-2.6.3-X-src.tar.bz2
@@ -39,20 +41,20 @@ This will create:
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
+(libgtkhtml2)
   /usr/bin/cyggtkhtml-2-0.dll
-  /usr/share/doc/Cygwin/libgtkhtml2-2.6.3.README
-  /usr/share/doc/libgtkhtml2-2.6.3/AUTHORS
-  /usr/share/doc/libgtkhtml2-2.6.3/ChangeLog
-  /usr/share/doc/libgtkhtml2-2.6.3/COPYING.LIB
-  /usr/share/doc/libgtkhtml2-2.6.3/INSTALL
-  /usr/share/doc/libgtkhtml2-2.6.3/NEWS
-  /usr/share/doc/libgtkhtml2-2.6.3/README
-  /usr/share/doc/libgtkhtml2-2.6.3/TODO
+  /usr/share/doc/Cygwin/libgtkhtml2-2.11.0.README
+  /usr/share/doc/libgtkhtml2-2.11.0/AUTHORS
+  /usr/share/doc/libgtkhtml2-2.11.0/COPYING.LIB
+  /usr/share/doc/libgtkhtml2-2.11.0/ChangeLog
+  /usr/share/doc/libgtkhtml2-2.11.0/INSTALL
+  /usr/share/doc/libgtkhtml2-2.11.0/NEWS
+  /usr/share/doc/libgtkhtml2-2.11.0/README
+  /usr/share/doc/libgtkhtml2-2.11.0/TODO
 
-Files included in the devel package:
-
+(libgtkhtml2-devel)
   /usr/include/gtkhtml-2.0/libgtkhtml/css/cssmatcher.h
   /usr/include/gtkhtml-2.0/libgtkhtml/css/cssparser.h
   /usr/include/gtkhtml-2.0/libgtkhtml/css/cssstylesheet.h
@@ -130,6 +132,9 @@ Files included in the devel package:
 
 Port Notes:
 
+----- version 2.11.0-1 -----
+Version bump.
+
 ----- version 2.6.3-2 -----
 Rebuilt with updated toolchain.
 Created separate -devel package.
@@ -141,4 +146,5 @@ Version bump.
 Initial release for Cygwin.
 
 
-Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
