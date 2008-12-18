@@ -1,0 +1,4 @@
+category: Gnome
+requires: libgtkhtml2_0
+sdesc: "GTK2 HTML display widget library (sources)"
+ldesc: "An HTML display widget library for GTK2"

@@ -1,6 +1,0 @@
-ORIG_PN=${PN%2}
-inherit gnome2
-
-DESCRIPTION="GTK2 HTML display widget library"
-
-CYGCONF_ARGS="--enable-accessibility"

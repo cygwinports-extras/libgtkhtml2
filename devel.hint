@@ -1,5 +1,0 @@
-category: Gnome
-requires: cygwin atk-devel glib2-devel gtk2-x11-devel libgailutil-devel libxml2-devel pango-devel
-external-source: libgtkhtml2
-sdesc: "GTK2 HTML display widget library (development)"
-ldesc: "An HTML display widget library for GTK2"

@@ -1,4 +1,0 @@
-category: Gnome
-requires: cygwin atk glib2 gdk-pixbuf2 gtk2-x11 libgailutil18 libxml2 pango
-sdesc: "GTK2 HTML display widget library (runtime)"
-ldesc: "An HTML display widget library for GTK2"
